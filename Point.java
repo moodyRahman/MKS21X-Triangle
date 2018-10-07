@@ -35,8 +35,8 @@ public class Point{
   }
 
   public void shift(int angle, double dist){
-    double diffY = dist * sin(degToRad(angle));
-    double diffX = dist * cos(degToRad(angle));
+    double diffY = dist * sin( degToRad(angle));
+    double diffX = dist * cos( degToRad(angle));
 
     shift(diffX, diffY);
   }
