@@ -40,4 +40,17 @@ public class Point{
 
     shift(diffX, diffY);
   }
+
+
+  public static double distance(Point p1, Point p2){
+    double xdist = abs(p2.getX() - p1.getX());
+    double ydist = abs(p2.getY() - p1.getY());
+    return sqrt(pow(xdist, 2) + pow(ydist, 2));
+  }
+
+  public double distance(Point p2){
+    double xdist = abs(p2.getX() - this.x);
+    double ydist = abs(p2.getY() - this.y);
+    return sqrt(pow(xdist, 2) + pow(ydist, 2));
+  }
 }

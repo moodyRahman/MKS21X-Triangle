@@ -1,12 +1,11 @@
 public class Driver{
 
   public static void main(String[] args) {
-    Point wack = new Point(3.0, 5);
+    Point wack = new Point(3, 5);
+    Point penny = new Point(3, 7);
 
-    wack.shift(34, 6.0);
+    System.out.println(Point.distance(wack, penny));
 
-    System.out.println(wack.getX());
-    System.out.println(wack.getY());
-
+    System.out.println(penny.distance(wack));
   }
 }
