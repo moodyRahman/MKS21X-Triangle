@@ -53,4 +53,8 @@ public class Point{
     double ydist = abs(p2.getY() - this.y);
     return sqrt(pow(xdist, 2) + pow(ydist, 2));
   }
+
+  public String toString(){
+    return this.x + ", " + this.y;
+  }
 }
