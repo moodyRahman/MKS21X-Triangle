@@ -4,7 +4,7 @@ public class Triangle{
   private Point p2;
   private Point p3;
 
-  public Triangle(x1, y1, x2, y2, x3, y3){
+  public Triangle(double x1,double y1,double x2,double y2,double x3,double y3){
     p1 = new Point(x1, y1);
     p2 = new Point(x1, y1);
     p3 = new Point(x1, y1);
