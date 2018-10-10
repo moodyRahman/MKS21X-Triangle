@@ -17,5 +17,8 @@ public class Triangle{
   }
 
   public getPoint(int point){
+    if (point = 1) return p1;
+    if (point = 2) return p2;
+    if (point = 3) return p3;
   }
 }
