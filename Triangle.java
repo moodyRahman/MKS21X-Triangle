@@ -16,9 +16,10 @@ public class Triangle{
     this.p3 = p3;
   }
 
-  public getPoint(int point){
-    if (point = 1) return p1;
-    if (point = 2) return p2;
-    if (point = 3) return p3;
+  public Point getPoint(int point){
+    if (point == 1) return p1;
+    if (point == 2) return p2;
+    if (point == 3) return p3;
+    return new Point(0, 0);
   }
 }
