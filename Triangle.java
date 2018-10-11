@@ -47,6 +47,6 @@ public class Triangle{
   }
 
   public String toString(){
-    return "Triangle: A@" + p0 + " B@" + p1 +" C@" + p2 ;
+    return "Triangle: A@(" + p0 + ") B@(" + p1 +") C@(" + p2 +")" ;
   }
 }
