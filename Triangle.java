@@ -16,6 +16,12 @@ public class Triangle{
     this.p2 = p2;
   }
 
+  public Point getVertex(int index){
+    Point output;
+    output = new Point(getPoint(index).getX(), getPoint(index).getY());
+    return output;
+  }
+
   public Point getPoint(int point){
     if (point == 0) return p0;
     if (point == 1) return p1;
