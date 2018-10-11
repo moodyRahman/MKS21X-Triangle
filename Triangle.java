@@ -28,4 +28,10 @@ public class Triangle{
     if (point == 2) return p2;
     return new Point(0, 0);
   }
+
+  public void setVertex(int point, Point newp){
+    if (point == 0) p0 = newp;
+    if (point == 1) p1 = newp;
+    if (point == 2) p2 = newp;
+  }
 }
