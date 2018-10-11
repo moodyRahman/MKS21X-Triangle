@@ -24,7 +24,7 @@ public class Driver{
     t1 = new Triangle(-1,-1, 2,3, 2,-1);
     System.out.println( t1 );
     System.out.println( t1.getPerimeter() );
-    /**
+
     System.out.println("\nTesting getVertex in the 3/4/5 triangle");
     System.out.println( t1.getVertex(0) );
     System.out.println( t1.getVertex(1) );
@@ -35,6 +35,5 @@ public class Driver{
     t1.setVertex(1,new Point(-9,9));
     t1.setVertex(2,new Point(9,-9));
     System.out.println( t1 );
-    **/
   }
  }
