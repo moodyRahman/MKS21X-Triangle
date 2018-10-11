@@ -34,4 +34,12 @@ public class Triangle{
     if (point == 1) p1 = newp;
     if (point == 2) p2 = newp;
   }
+
+  public double getPerimeter(){
+    double a, b, c;
+    a = p0.distance(p1);
+    b = p1.distance(p2);
+    c = p2.distance(p0);
+    return a + b + c;
+  }
 }
