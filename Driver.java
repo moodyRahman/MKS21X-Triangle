@@ -11,5 +11,7 @@ public class Driver{
     System.out.println(Point.distance(trock.getPoint(0), trock.getPoint(1)));
     System.out.println(Point.distance(trock.getPoint(1), trock.getPoint(2)));
     System.out.println(Point.distance(trock.getPoint(2), trock.getPoint(0)));
+    System.out.println(trock);
+    System.out.println(trick);
   }
 }

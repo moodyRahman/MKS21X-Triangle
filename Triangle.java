@@ -42,4 +42,10 @@ public class Triangle{
     c = p2.distance(p0);
     return a + b + c;
   }
+
+  public String toString(){
+    return "p0@" + p0 + "\n"+
+           "p1@" + p1 + "\n"+
+           "p2@" + p2 + "\n";
+  }
 }
