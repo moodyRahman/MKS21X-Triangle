@@ -37,15 +37,16 @@ public class Triangle{
 
   public double getPerimeter(){
     double a, b, c;
-    a = p0.distance(p1);
-    b = p1.distance(p2);
-    c = p2.distance(p0);
+    //a = p0.distance(p1);
+    //b = p1.distance(p2);
+    //c = p2.distance(p0);
+    a = Point.distance(p0, p1);
+    b = Point.distance(p1, p2);
+    c = Point.distance(p2, p0);
     return a + b + c;
   }
 
   public String toString(){
-    return "p0@" + p0 + "\n"+
-           "p1@" + p1 + "\n"+
-           "p2@" + p2 + "\n";
+    return "Triangle: A@" + p0 + " B@" + p1 +" C@" + p2 ;
   }
 }

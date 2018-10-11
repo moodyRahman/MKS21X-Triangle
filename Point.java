@@ -48,7 +48,7 @@ public class Point{
     return sqrt(pow(xdist, 2) + pow(ydist, 2));
   }
 
-  public double distance(Point p2){
+  public double distanceTo(Point p2){
     double xdist = abs(p2.getX() - this.x);
     double ydist = abs(p2.getY() - this.y);
     return sqrt(pow(xdist, 2) + pow(ydist, 2));
